@@ -7,10 +7,9 @@ using namespace std;
 
 // hexdec to dec
 void h2d(string ens) { cout << stoi(ens, 0, 16); }
-//				 ^       ^   ^
-//	change strings to num____|       |   |_base, e.g. hexdec
-//                                       |
-//                                null pointer
+// stoi: string to char
+// 0: null pointer
+// 16: base num
 
 // dec to oct
 void d2o(int n){

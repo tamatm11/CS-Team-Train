@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// int i=1 luon quet so dau tien
 
 // hexdec to dec
 void h2d(string ens) { cout << stoi(ens, 0, 16); }

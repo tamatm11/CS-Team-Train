@@ -5,9 +5,14 @@ using namespace std;
 
 // int i=1 quet so dau tien
 
+
 // void func(string NumOrHex) { cout << stoi(ens, 0, numnum); }
+
 // This function can be used to change from hex, oct, bin to decimal
-// by replacing "numnum" with 16, 8 or 2
+// by replacing "numnum" with 16, 8 or 2.
+//	 2: binary
+//	 16: hex
+//	 8: oct
 // ~tsun
 
 
@@ -16,7 +21,7 @@ void h2o(string n) {
 
 }
 
-// hex to dec
+// hex to dec (a bit cheating, but im tired)
 void h2d(string ens) { cout << stoi(ens, 0, 16); }
 // stoi: string to num
 // 0: null pointer
